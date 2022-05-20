@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>To do app</title>
+    <link rel="stylesheet" href="main-style.css">
+</head>
+<body>
+<div id="main-container">
+
+    <div id="footer">
+        <div id="calendar">
+            <img src="img.png" id="img-calendar" alt="">
+            <div id="text-calendar"></div>
+        </div>
+        <div id="greeting">Привет, Аня!</div>
+    </div>
+
+    <div id="issuing-list">
+        <div id="container-for-text">
+            <div id="list-text">What's your plan?</div>
+        </div>
+        <div id="dropdown-button" >
+                <input type="image" height="14" width="16" src="img_2.png" name="menu" id="triangleDown" alt="" value="Click" onmousedown="viewDiv()"  >
+
+        </div>
+    </div>
+    <div id="divWithButtons" class="blockWithButtons">
+        <button class="button" id="first">Completed</button>
+        <button class="button">In Progress</button>
+        <button class="button">Removed</button>
+    </div>
+
+    <div id="caption"> 
+            <text id="caption-text">Upcoming To-do’s</text>
+
+    </div>
+
+
+    <div class="item-list">
+        <ul id="ul-container">
+            <li class="task-item task-item-completed">
+                <div class="completeButton-default item-container">
+                    <img src="img-made.png" alt="">
+                    <text> item-container</text>
+                        <div class="trashButton-default"><svg width="11" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="8.99999" r="5.5" transform="rotate(45 9 8.99999)" stroke="#EB3D3D"/><rect x="10.6971" y="6.73724" width="0.8" height="5.6" rx="0.4" transform="rotate(45 10.6971 6.73724)" fill="#EB3D3D"/><rect x="6.73726" y="7.30292" width="0.8" height="5.6" rx="0.4" transform="rotate(-45 6.73726 7.30292)" fill="#EB3D3D"/></svg></div>
+                </div>
+            </li>
+            <li class="task-item">
+                <div class="completeButton-default item-container">
+                    <svg width="15" height="15" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" r="5.5" stroke="#447B75"/>
+                    </svg>
+                    <text>item-container</text>
+                    <div class="trashButton-default"><svg width="11" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="8.99999" r="5.5" transform="rotate(45 9 8.99999)" stroke="#EB3D3D"/><rect x="10.6971" y="6.73724" width="0.8" height="5.6" rx="0.4" transform="rotate(45 10.6971 6.73724)" fill="#EB3D3D"/><rect x="6.73726" y="7.30292" width="0.8" height="5.6" rx="0.4" transform="rotate(-45 6.73726 7.30292)" fill="#EB3D3D"/></svg></div>
+                </div>
+            </li>
+
+        </ul>
+        <div class="NewItem addNone" id="inputButt">
+            <div class="NewItem-create">
+                <div class="NewItem-create-icon">
+                    <div class="NewItem-create-icon--default">
+                        <svg width="15" height="15" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="5.5" stroke="#FC5079" />
+                            <rect x="5.60001" y="3.2" width="0.8" height="5.6" rx="0.4" fill="#FC5079" />
+                            <rect x="3.2" y="6.39999" width="0.8" height="5.6" rx="0.4" transform="rotate(-90 3.2 6.39999)"
+                                  fill="#FC5079" />
+                        </svg>
+                    </div>
+                    <div id="inputAddTarget" class="NewItem-create-icon--hovered">
+                        <svg width="15" height="15" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="5.5" fill="#FC5079" stroke="#FC5079" />
+                            <rect x="5.60001" y="3.2" width="0.8" height="5.6" rx="0.4" fill="white" />
+                            <rect x="3.2" y="6.39999" width="0.8" height="5.6" rx="0.4" transform="rotate(-90 3.2 6.39999)"
+                                  fill="white" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="NewItem-input">
+                <input type="text" id="targetCreate" class="NewItem-input--input" placeholder="Create New Item" />
+            </div>
+<!--            <div class="trashButton-hovered"><svg width="18" height="18" viewBox="0 0 18 18" fill="#EB3D3D" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="8.99999" r="5.5" transform="rotate(45 9 8.99999)" stroke="#EB3D3D"/><rect x="10.6971" y="6.73724" width="0.8" height="5.6" rx="0.4" transform="rotate(45 10.6971 6.73724)" fill="white"/><rect x="6.73726" y="7.30292" width="0.8" height="5.6" rx="0.4" transform="rotate(-45 6.73726 7.30292)" fill="white"/></svg></dir>-->
+
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

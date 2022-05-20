@@ -1,0 +1,445 @@
+#main-container {
+    width: 234px;
+    height: 327px;
+    position: relative;
+    background: #E4FFFC;
+    border-radius: 11px;
+    top: 164px;
+    left: 475px;
+}
+
+#calendar {
+
+    left: 14px;
+    top: 11px;
+    border-radius: 0;
+    position: absolute;
+}
+
+#img-calendar {
+    height: 17px;
+    width: 17px;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+#text-calendar {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    color: #7B8D8B;
+
+}
+
+#footer {
+    color: #7B8D8B;
+
+}
+
+#greeting {
+    position: absolute;
+    font-family: Reem Kufi;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 17px;
+    left: 36px;
+    top: 11px;
+    border-radius: 0px;
+}
+
+#issuing-list {
+    position: absolute;
+    background: #EEEEEE;
+    height: 35px;
+    width: 208px;
+    left: 13px;
+    top: 35px;
+    border-radius: 11px;
+    border: 1px solid #3D5C59;
+    box-shadow: 3px 4px 8px 0px #5BA099;
+    color: #254E49;
+    display: flex; /* используется для свойста "justify-content"*/
+    justify-content: space-between; /* для центрирования элемента по горизонали*/
+    align-items: center; /* выравнивает по горизонтали по центру*/
+
+}
+
+#container-for-text {
+    width: 141px;
+    height: 27px;
+    left: 100px;
+    top: 38px;
+
+    font-family: 'Reem Kufi', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+
+#list-text {
+    margin: 0 -10px 0 15px;
+    color: #254E49;
+}
+
+#dropdown-button {
+
+    width: 43px;
+    height: 35px;
+    left: 178px;
+    top: 35px;
+    background-color: #447B75;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #3D5C59;
+}
+
+#img-background-button {
+    position: absolute;
+    width: 43px;
+    height: 35px;
+    border: 0;
+    z-index: 1;
+
+}
+
+#img-button {
+    position: relative;
+    bottom: -10px;
+    width: 16.82px;
+    height: 16.82px;
+    z-index: 1000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+#triangleDown {
+    margin: 10px 0px 0px 12px;
+
+}
+
+#imgGreen {
+    position: absolute;
+    width: 43px;
+    height: 35px;
+    left: 178px;
+    top: 35px;
+
+    background: #447B75;
+    border: 1px solid #3D5C59;
+    box-sizing: border-box;
+}
+
+#divWithButtons {
+    position: relative;
+    display: none;
+    top: 80px;
+    left: 15px;
+    justify-content: space-between; /* для центрирования элемента по горизонали*/
+    align-items: center; /* выравнивает по горизонтали по центру*/
+}
+
+.blockWithButtons button {
+    height: 30px;
+    width: 62px;
+    left: 86px;
+    top: 80px;
+    border-radius: 10px;
+    background: #BFEBE6;
+    box-shadow: 2px 4px 6px 0px #447B75;
+
+    border-radius: 10px;
+
+    border: 0px solid;
+
+    font-family: Rationale;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.active {
+    color: #EE7291B0;
+}
+
+.button{
+    margin-left: 6px;
+}
+#first{
+    margin-left: 0px;
+}
+
+#caption{
+    position: relative;
+    width: 108px;
+    height: 21px;
+    left: 13px;
+    top: 87px;
+
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.075em;
+    color: #254E49;
+    border-bottom: 1px solid black;
+}
+.item {
+    height: 15px;
+    width: 15px;
+    left: 13px;
+    border-radius: 0px;
+    border: 1px solid #447B75;
+    box-sizing: border-box;
+
+}
+.item-list{
+    margin-top: 16px;
+    position: relative;
+    top: 80px;
+}
+.item-list li{
+    list-style-type: none;
+}
+.item-list li text{
+    position: relative;
+    top: -3.7px;
+    border-radius: 0px;
+    font-family: Rationale;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5C5959;
+}
+
+.task-item{
+    height: 20px;
+    width: 213px;
+    left: 8px;
+    top: 139px;
+    margin-bottom: 5px;
+}
+
+
+.task-item-select{
+    border-radius: 5px;
+    background: #99D7D07D;
+    box-shadow: 1px 4px 6px 0px #447B75;
+}
+
+.item-list ul{
+    margin-left: 8px; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    left: 8px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.completeButton-default{
+    position: relative;
+    top: 2.8px;
+    left: 5px;
+}
+
+
+.trashButton-default svg{
+    position: relative;
+    pointer-events: none;
+}
+.trashButton-hovered svg{
+    position: relative;
+    pointer-events: none;
+}
+
+
+.trashButton-default{
+    position: relative;
+    height: 11px;
+    width: 11px;
+    left: 193px;
+    top: -20px;
+    border-radius: 0px;
+    display: none;
+}
+
+.trashButton-hovered{
+    position: relative;
+    height: 11px;
+    width: 11px;
+    left: 193px;
+    top: -20px;
+    border-radius: 0px;
+    display: none;
+}
+
+.trashButton-default:hover svg {
+    stroke : white;
+    fill: #EB3D3D;
+}
+
+.item-container .forDeleted {
+    text-decoration: none;
+    color: red;
+    top: -6px;
+}
+
+.task-item-completed img{
+    position: relative;
+    height: 18px;
+    width: 18px;
+    left: 0px;
+    top: 0px;
+    /*padding-bottom: 3px;*/
+}
+.task-item-completed {
+    padding-bottom: 5px;
+}
+.task-item-completed text{
+    text-decoration: line-through;
+    text-decoration-color:  #447B75;
+}
+
+.item-list li:hover .trashButton-default{
+    display: block;
+}
+.item-list li:hover .trashButton-hovered{
+    display: none;
+}
+
+.item-list li:hover {
+    border-radius: 5px;
+    background: #99D7D07D;
+    box-shadow: 1px 4px 6px 0px #447B75;
+}
+.item-list .task-item-completed:hover {
+    border-radius: 5px;
+    background: #99D7D07D;
+    box-shadow: 1px 4px 6px 0px #447B75;
+}
+
+.NewItem-input--input {
+    width: 100%;
+    position: relative;
+    font-family: 'Rationale';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #3d82eb;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color:#E4FFFC;
+    margin-top: -30px;
+}
+
+.NewItem-input--input::placeholder {
+    font-family: 'Rationale';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FC5079;
+}
+
+.NewItem-input {
+    width: 100%;
+}
+
+.NewItem {
+    margin: 0px;
+    padding-left: 13px;
+    /*padding-top: 25px;*/
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.NewItem-create-icon {
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.NewItem
+.NewItem-create
+.NewItem-create-icon:hover
+.NewItem-create-icon--default {
+    display: none;
+}
+.NewItem
+.NewItem-create
+.NewItem-create-icon:hover
+.NewItem-create-icon--hovered {
+    display: block;
+}
+.NewItem .NewItem-create .NewItem-create-icon .NewItem-create-icon--hovered {
+    display: none;
+}
+
+#main-container {
+    overflow: auto; /* свойство для прокрутки по горизонтали. Автоматом, если содержимое больше блока */
+}
+#main-container::-webkit-scrollbar {
+    width: 0;
+}
+
+.addNone{
+    display: none;
+}
+
+.forInProgress img{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 0px;
+    top: -3px;
+    display: none;
+}
+
+/*.point{*/
+/*    left: 0px;*/
+/*    width: 15px;*/
+/*    height: 15px;*/
+/*}*/
+
+.completeButton-default:hover .forInProgress img{
+    display: block;
+}
+
+.completeButton-default img:hover .item-container{
+    display: none;
+}
+.addBlock{
+    margin: 0px;
+    padding-left: 13px;
+    /*padding-top: 25px;*/
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    display: block;
+}
